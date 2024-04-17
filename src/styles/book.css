@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.home i{
+    scale: 1.4;
+}
+
+.icon i{
+    color: #604058;
+    scale: 3;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+form input{
+    max-width: 40vw;
+}

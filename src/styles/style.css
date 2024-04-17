@@ -8,7 +8,7 @@ body{
 }
 
 .hero{
-  background: url('../assets/pattern-randomized3.svg');
+  background: url('../../assets/pattern-randomized3.svg');
   background-size: cover;
   width: 100vw;
 }
@@ -44,7 +44,7 @@ header{
 }
 
 h1 pre{
-  font-size: 37pt;
+  font-size: 30pt;
 }
 header .book{
   text-decoration: none;
@@ -111,6 +111,7 @@ header .book{
 .how-to{
   width: 100vw;
   height: 80vh;
+  margin-block: 10vh;
 }
 
 .how-to span{
