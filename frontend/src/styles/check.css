@@ -71,16 +71,16 @@ nav .search input:focus{
     margin-left: 0.4rem;
 }
 
-table .data{
+
+.data{
     color: #555;
 }
 
-tr{
+.table-row{
     padding: 1.6rem;
 }
 
-th{
+.table-row th{
     text-align: start;
-    margin: 1rem;
 }
 
