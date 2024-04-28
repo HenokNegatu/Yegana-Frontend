@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -23,6 +25,10 @@ nav{
 nav .logo-container .logo{
   font-size: 25pt;
 }
+nav .logo-container .am{
+  font-size: 27pt;
+  font-weight: 900;
+}
 nav .logo-container .yegna{
   color: #604058;
 }
@@ -46,6 +52,11 @@ nav .logo-container .version{
   cursor: pointer;
 }
 
+header h1 pre .am{
+  font-family: 'Abyssinica SIL';
+  font-size: 40pt;
+}
+
 header{
   display: flex;
   justify-content: center;
@@ -67,6 +78,11 @@ header .book{
   align-self: center;
   border-radius: 10px;
   font-size: 18pt;
+}
+header .btns{
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
 }
 
 
