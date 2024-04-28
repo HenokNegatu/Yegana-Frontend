@@ -10,29 +10,21 @@
 
 
   </head>
-  <script>
-    function switchLanguage(language){
-        if (language === 'en'){
-          window.location.href = 'index.html';
-         } else if (language === 'am'){
-          window.location.href = 'index-am.html';
-        }
-    }
-    </script>
+  <script src="./static/switch-language.js"></script>
   <body>
 
     <section class="hero">
 
       <nav>
         <div class="logo-container">
-          <span class="logo yegna">የኛ </span>
-          <span class="logo bus">ባስ </span>
+          <span class="logo yegna am">የኛ </span>
+          <span class="logo bus am">ባስ </span>
           <span class="logo version">v1.1.0</span>
         </div>
         <div>
           <div>
             <select class="language-select"  onchange="switchLanguage(this.value)">
-              <option value="">ቋንቋ</option>
+              <option value="" class="am">ቋንቋ</option>
               <option value="en">English</option>
               <option value="am">Amharic</option>
           </select>
@@ -43,12 +35,12 @@
 
       <header>
         <h1><pre>
-          <h1><pre>ከእኛ ጋር
+          <h1><pre class="am">ከእኛ ጋር
             ከመቼውም ጊዜ በላይ በምቾትን ይጏዙ
         </pre></h1>
         <div class="btns">
-        <a class="book" href="./book.html">Book now</a>
-        <a class="book" href="./check.html">Check-in</a>
+        <a class="book" href="./book.html">ጉዞ ያሲይዙ</a>
+        <a class="book" href="./check.html">ጉዞ ያረጋግጡ</a>
       </div>
       </header>
     </section>
@@ -61,8 +53,8 @@
           <img src="../assets/yohannes-minas-YPLosSc3w6A-unsplash.jpg" alt="">
         </div>
         <div class="content">
-          <h1>Addis Ababa</h1>
-          <p>Book your next ride from any where to Addis Ababa</p>
+          <h1>አዲስ አበባ</h1>
+          <p>ቀጣዩን ጉዞዎን ከየትኛውም ቦታ ወደ አዲስ አበባ ያስይዙ</p>
         </div>
       </div>
 
@@ -71,8 +63,8 @@
           <img src="../assets/hunde-gemechu-vSpuHmEGxcI-unsplash.jpg" alt="">
         </div>
         <div class="content">
-          <h1>Gondar</h1>
-          <p>Book your next ride from Addis Ababa to Gondar</p>
+          <h1>ጎንደር</h1>
+          <p>የሚቀጥለውን ጉዞዎን ከአዲስ አበባ ወደ ጎንደር ይያዙ</p>
         </div>
       </div>
 
@@ -81,8 +73,9 @@
           <img src="../assets/yohannes-minas-YPLosSc3w6A-unsplash.jpg" alt="">
         </div>
         <div class="content">
-          <h1>Harar</h1>
-          <p>Book your next ride from Addis Ababa to Harar</p>
+          <h1>ሐረር</h1>
+          <p>
+            ከአዲስ አበባ ወደ ሐረር ቀጣዩን ጉዞዎን ያስይዙ</p>
         </div>
       </div>
 
@@ -91,8 +84,8 @@
           <img src="../assets/marc-szeglat-Rj21YHC1CIY-unsplash.jpg" alt="">
         </div>
         <div class="content">
-          <h1>Afar</h1>
-          <p>Book your next ride from Addis Ababa to Afar</p>
+          <h1>አፋር</h1>
+          <p>ቀጣዩን ጉዞዎን ከአዲስ አበባ ወደ አፋር ያስይዙ</p>
         </div>
       </div>
 
@@ -100,39 +93,40 @@
 
 
     <section class="how-to">
-      <span><i class="fa-solid fa-bus"></i>How to book</span>
+      <span><i class="fa-solid fa-bus"></i> ጉዞ ለማሲያዝ ?</span>
 
       <ul type="none">
         <li>
           <div class="icon"><i class="fa-solid fa-bookmark"></i></box-icon></div>
-          <div class="step"><p>Determine where you want to go and when you want to travel. Consider factors like weather, events, and availability.</p></div>
+          <div class="step"><p>የት መሄድ እንደሚፈልጉ እና መቼ መሄድ እንደሚፈልጉ ይወስኑ. እንደ የአየር ሁኔታ፣ ክስተቶች እና ተገኝነት ያሉ ሁኔታዎችን ያስቡበት።</p></div>
         </li>
 
         <li>
           <div class="icon"><i class="fa-solid fa-bookmark"></i></box-icon></div>
-          <div class="step"><p>Provide Passenger Information: Enter the required passenger information, including names, ages, contact details</p></div>
+          <div class="step"><p>የተሳፋሪዎችን መረጃ ያቅርቡ፡ ስሞችን፣ ዕድሜ፣ የአድራሻ ዝርዝሮችን ጨምሮ አስፈላጊውን የተሳፋሪ መረጃ ያስገቡ።</p></div>
         </li>
 
         <li>
           <div class="icon"><i class="fa-solid fa-bookmark"></i></box-icon></div>
-          <div class="step"><p>Review and Confirm Your Booking: Double-check all the details of your booking, including travel dates, times, and passenger information, to ensure accuracy.</p></div>
+          <div class="step"><p>
+            ቦታ ማስያዝዎን ይገምግሙ እና ያረጋግጡ፡ የጉዞ ቀኖችን፣ ሰአቶችን እና የተሳፋሪዎችን መረጃ ጨምሮ ሁሉንም የቦታ ማስያዝ ዝርዝሮችን ትክክለኛነት ለማረጋገጥ ደግመው ያረጋግጡ።</p></div>
         </li>
 
         <li>
           <div class="icon"><i class="fa-solid fa-bookmark"></i></box-icon></div>
-          <div class="step"><p>Travel: On the day of your journey, arrive at the departure point well in advance to allow time for check-in and security procedures.</p></div>
+          <div class="step"><p>ጉዞ፡ በጉዞዎ ቀን፣ ለመግቢያ እና ለደህንነት ሂደቶች ጊዜ ለመስጠት አስቀድመው መነሻ ቦታ ላይ ይደርሳሉ።</p></div>
         </li>
       </ul>
 
     </section>
     <footer>
       <div class="header">
-        <h1>Yegna Bus</h1>
+        <h1>የኛ ባስ</h1>
       </div>
       <div class="about-us">
-        <p class="header">About us</p>
-        <p class="description">Yegan Bus is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
-          Odoo's unique value proposition is to be at the same time very easy to use and fully integrated.</p>
+        <p class="header">ስለ እኛ</p>
+        <p class="description">"የኛ ባስ" ከትራንስፖርት አገልግሎት በላይ ነን - በክልሎች ያሉ ሰዎችንና ቦታዎችን የምናገናኝ ድልድይ ነን። ለደህንነት፣ ምቾት እና አስተማማኝነት ባለን ቁርጠኝነት እያንዳንዱን ጉዞ የማይረሳ ተሞክሮ ለማድረግ እንጥራለን። ለስራም ሆነ ለመዝናኛ የኛ ባስን ምርጫዎ ያድርጉ።
+        </p>
           <div class="links">
             <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
             <i class="fa-brands fa-instagram"></i>
