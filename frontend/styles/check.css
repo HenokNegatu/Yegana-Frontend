@@ -56,6 +56,8 @@ nav .search input:focus{
     width: 50vw;
     height: 40vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .header{
     background-color: #604058;
@@ -73,7 +75,13 @@ nav .search input:focus{
 
 
 .data{
-    color: #555;
+    color: #666;
+}
+
+table{
+    width: 90%;
+    height: 90%;
+    align-self: center;
 }
 
 .table-row{
