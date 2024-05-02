@@ -10,6 +10,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: #f3f4f6;
 }
 
 .home{
@@ -38,6 +39,10 @@ form{
 form input{
     min-width: 22vw;
     min-height: 5vh;
+    padding-inline: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
 form ::placeholder{
@@ -47,4 +52,18 @@ form ::placeholder{
 form select{
     min-width: 30vw;
     min-height: 5vh;
+    padding-inline: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+form button{
+    width: fit-content;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+    background-color: #000;
+    color: #fff;
+    align-self: center;
+    border: 0;
+    border-radius: 10px;
 }
