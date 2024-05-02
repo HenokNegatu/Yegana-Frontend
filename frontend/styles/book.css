@@ -23,14 +23,28 @@ body{
 
 .icon i{
     color: #604058;
-    scale: 3;
+    scale: 4;
+    margin: 4rem;
 }
 
 form{
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    padding: 1rem;
+    border:1px solid #604058;
+    border-radius: 10px;
 }
 form input{
-    max-width: 40vw;
+    min-width: 22vw;
+    min-height: 5vh;
+}
+
+form ::placeholder{
+    margin-left: 1rem;
+}
+
+form select{
+    min-width: 30vw;
+    min-height: 5vh;
 }
