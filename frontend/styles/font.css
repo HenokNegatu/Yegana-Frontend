@@ -1,0 +1,17 @@
+@import url(./style.css);
+
+@font-face {
+    font-family: 'jiret'; /* Specify a unique name for your font */
+    src: url('./jiret.ttf') format('truetype'); /* Path to your TTF font file */
+    /* Optionally, specify font-weight and font-style */
+    font-weight: 20px;
+    font-size: 30px;
+    font-style: normal;
+  }
+
+
+
+body{
+    font-family: jiret !important;
+}
+
