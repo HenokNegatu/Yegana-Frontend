@@ -1,0 +1,74 @@
+.weather-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 20p;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #604058;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #604058;
+}
+
+#weather-result {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-item p {
+    margin: 0; /* Remove default margin */
+}
+
+.forecast-item strong {
+    margin-right: 10px; /* Add spacing between date/time and temperature/description */
+}
+
+.weather{
+    width: 100vw;
+    margin-block: 10vh;
+  }
+
+  .weather span{
+    color: #604058;
+    font-size: 18pt;
+    margin: 4rem;
+  }
+
+
+
+

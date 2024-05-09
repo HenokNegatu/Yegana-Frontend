@@ -11,6 +11,8 @@
 
   </head>
   <script src="./static/switch-language.js"></script>
+  <script src="./static/weather.js"></script>
+
   <body>
 
     <section class="hero">
@@ -117,6 +119,19 @@
           <div class="step"><p>ጉዞ፡ በጉዞዎ ቀን፣ ለመግቢያ እና ለደህንነት ሂደቶች ጊዜ ለመስጠት አስቀድመው መነሻ ቦታ ላይ ይደርሳሉ።</p></div>
         </li>
       </ul>
+
+    </section>
+
+    <section class = "weather">
+      <span><i class="fa-solid fa-bus"></i>የአየር ሁኔታን ያረጋግጡ</span>
+      <div class="weather-container">
+        <div class="weather-info">
+            <input type="text" id="city-input" placeholder="ከተማ አስገባ"><br>
+            <button onclick="getWeather()">ዛሬ</button>
+            <button onclick="getForecast()">የ3-5 ቀን ትንበያ ያግኙ</button>
+            <div id="weather-result"></div>
+        </div>
+    </div>
 
     </section>
     <footer>
