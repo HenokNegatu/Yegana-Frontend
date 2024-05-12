@@ -1,6 +1,6 @@
 <?php
 
-$db_server_name = "mysql:host=localhost;dbname=YegnaBus";
+$db_server_name = "mysql:host=localhost:3307;dbname=YegnaBus";
 $db_username = "root";
 $db_password = "";
 
