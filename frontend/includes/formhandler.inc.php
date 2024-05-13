@@ -21,6 +21,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $pdo = null;
         $stmt = null;
 
+         // Store the token in a session variable for access on the success page
+         session_start(); // Start the session if not already started
+         $_SESSION['token'] = $token;
+ 
+
         header("Location: ../success.php");
         die();
     } catch (PDOException $e) {

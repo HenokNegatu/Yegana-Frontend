@@ -11,43 +11,13 @@
 
     <a href="./index.html" id="link" class="home"><i class="fa-solid fa-house"></i></a>
 
+    <h2>Enter your token</h2>
     <nav>
-        <form class="search">
-            <input type="text" placeholder=" token">
+        <form class="search" action="/includes/search.inc.php" method="post">
+            <input type="text" name="token" placeholder=" token">
             <button class="btn"><i class="fa-solid fa-search"></i></button>
         </form>
     </nav>
-    <main class="container">
-        
-        <div class="header">
-            <span>Yegna Bus<i class="fa-solid fa-bus"></i></span>
-            <span><p>Boarding Pass</p></span>
-        </div>
-        <table>
-            <tr class="table-row">
-                <th>Passanger Name</th>
-                <th>Token</th>
-                <th>Date</th>
-                <th>Time</th>
-            </tr>
-            <tr class="table-row data" >
-                <td>john doe</td>
-                <td>sdlfk23ifs9398ruf</td>
-                <td>2-3-2024</td>
-                <td>5:00</td>
-            </tr>
-            <tr class="table-row">
-                <th colspan="1">From</th>
-                <th>Destiantion</th>
-                <th>Bus Number</th>
-            </tr>
-            <tr class="table-row data" >
-                <td>Addis ababa</td>
-                <td>Gondar</td>
-                <td>025</td>
-            </tr>
-        </table>
-    </main>
 </body>
 <script src="./static/which-index.js"></script>
 

@@ -30,6 +30,7 @@ nav .search input{
     border-radius: 10px;
     border: 1px solid #604058;
     outline: none;
+    width: 20vw;
 }
 
 nav .search input:focus{
@@ -92,3 +93,7 @@ table{
     text-align: start;
 }
 
+.no-data{
+    align-self: center;
+    justify-self: center;
+}
